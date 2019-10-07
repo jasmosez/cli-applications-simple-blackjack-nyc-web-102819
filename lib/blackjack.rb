@@ -75,7 +75,6 @@ end
 
 def runner
   welcome
-  running_total = 0
   running_total = initial_round
   until running_total > 21
 #    binding.pry
